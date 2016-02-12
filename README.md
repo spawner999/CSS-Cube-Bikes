@@ -12,7 +12,7 @@ Cube Bikes is a website entirely made using only HTML and CSS.
 ##Installation
 1. Clone this repository or download it in a .zip file
 2. Open index.html in a browser of you choice
-3. A live version is available [here](http://spawner999.github.io/CSS-Map/index.html)
+3. A live version is available [here](http://spawner999.github.io/CSS-Cube-Bikes/index.html)
 
 ## Technologies Used
 * HTML
