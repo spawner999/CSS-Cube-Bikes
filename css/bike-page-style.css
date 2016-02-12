@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 body{
-  width:1199px;
+  width:1200px;
   margin: auto;
   font-family: "Anton", sans-serif;
   margin-top: 100px;
@@ -11,7 +11,7 @@ body{
 }
 header{
   top: 0;
-  width: 1199px;
+  width: 1200px;
   height: 100px;
   z-index:3;
   position: fixed;
@@ -39,68 +39,59 @@ header{
   color: black;
   font-size: 1.5em;
 }
-.jumbotron{
-  position: relative;
-  height: 600px;
-}
-.jumbotron h1{
-  position: absolute;
-  top: 150px;
-  left: 100px;
-}
-.gallery-header{
-  height: 100px;
-  text-align: center;
-  position: relative;
-}
-.img-gallery{
-  height: 300px;
-  background-color: gray;
-}
-.gallery-item{
-  height: 0px;
-  float: left;
-  margin: 52px 14.87px 62px 14.87px;
-}
 .metallic-bg{
   background-color: #999999;
   background-image: url("http://www.transparenttextures.com/patterns/little-pluses.png");
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .black-bg{
   background-color: #000000;
   color: #999999;
 }
-.modal{
-  top: -295px;
-  left: 0px;
+.left-column{
+  float: left;
+  height:474px;
+  width: 66%;
   position: relative;
-  z-index:2;
-  border: 3px solid black;
-  width: 270px;
-  height: 350px;
+}
+.right-column{
+  background-color: black;
+  float: left;
+  height:474px;
+  width: 34%;
   text-align: center;
-  font-size: 1.2em;
-  display: none;
+  position: relative;
 }
-.modal img{
-  border: 2px solid black;
-  margin-top:15px;
+.description{
+  padding: 20px;
+  height: 406px;
+  width: 300px;
 }
-.modal h3{
+.right-column h2{
   margin-top: 15px;
 }
-.modal button{
-  font-family: "Anton", sans-serif;
-  letter-spacing: 2px;
-  font-size: 1.2em;
-  margin-top: 18px;
-  height:40px;
-  width: 120px;
-  padding: 1px;
-  border: 2px solid #999999;
+.specifics{
+  height: 400px;
+  clear: both;
+  text-align: center;
+  position: relative;
 }
-.gallery-item:hover > div{
-  display: block;
+.specifics h2{
+  padding-top: 25px;
+}
+table{
+  border-spacing: 50px 20px;
+}
+tr td:first-child{
+  font-weight: bold;
+}
+td{
+  font-size: 1.2em;
 }
 footer{
   height: 125px;
@@ -110,10 +101,4 @@ footer h3{
   position: absolute;
   bottom: 0;
   right: 0;
-}
-.centered{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
 }
