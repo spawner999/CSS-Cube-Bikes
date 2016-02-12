@@ -1,6 +1,6 @@
 # Cube Bikes
 
-####By: Lorenzo Ferrario & Paul Hess
+####By: Lorenzo Ferrario
 
 ##Description
 
