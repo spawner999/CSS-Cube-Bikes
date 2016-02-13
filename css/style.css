@@ -58,8 +58,10 @@ header{
   background-color: gray;
 }
 .gallery-item{
-  height: 0px;
+  height: 300px;
   float: left;
+}
+.gallery-item > img{
   margin: 52px 14.87px 62px 14.87px;
 }
 .metallic-bg{
@@ -71,29 +73,23 @@ header{
   color: #999999;
 }
 .modal{
-  top: -295px;
-  left: 0px;
+  top: -300px;
   position: relative;
   z-index:2;
-  border: 3px solid black;
-  width: 270px;
-  height: 350px;
+  width: 290px;
+  height: 300px;
   text-align: center;
   font-size: 1.2em;
   display: none;
 }
 .modal img{
   border: 2px solid black;
-  margin-top:15px;
-}
-.modal h3{
-  margin-top: 15px;
 }
 .modal button{
   font-family: "Anton", sans-serif;
   letter-spacing: 2px;
   font-size: 1.2em;
-  margin-top: 18px;
+  margin-top: 10px;
   height:40px;
   width: 120px;
   padding: 1px;
